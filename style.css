@@ -1,0 +1,229 @@
+body{
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.prata{
+    font-family: 'Prata', serif;
+}
+.inter{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 110%;
+}
+.classelements{
+    padding-top: 15px;
+    width: 300px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: rgb(182, 182, 182);
+}
+.header button{
+    display: none;
+}
+
+.header{
+    font-size: large;
+    margin: 40px 20px 40px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.threeLines{
+    font-size: x-large;
+}
+.heading{
+    font-size: xx-large;
+    line-height: 47px;
+    padding-bottom: 10px;
+}
+.top{
+    margin: 80px 20px 80px 20px;
+    max-width: 660px;
+}
+
+.text{
+    line-height: 28px;
+    color: rgb(182, 182, 182);
+}
+
+.logos{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    margin-bottom: 60px;
+
+}
+
+.logo{
+    padding-right: 11px;
+    padding-left: 11px; 
+    margin-bottom: 23px;
+}
+
+.card img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card{
+    margin-bottom: 50px;
+    flex:1
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 30px 20px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px 10px 20px;
+    background-color: rgb(60, 56, 66);
+}
+
+.info{
+    margin-bottom: 60px;
+}
+
+.contact{
+    margin: 0px 20px 0px 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(240, 240, 83);
+    font-family: 'Prata', serif;
+    font-size: medium;
+    border: none;
+}
+.footer{
+    font-size: large;
+    padding: 25px 35px 25px 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(60, 56, 66);
+}
+.social{
+    width: 30%;
+    min-width: 90px;
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 540px){
+    .header{
+        margin: 40px 50px 40px 50px;
+    }
+    .top{
+        margin: 80px 50px 80px 50px;
+    }
+    .cards{
+        margin: 0px 50px 30px 50px;
+    }
+    .information{
+        padding: 60px 50px 10px 50px;
+    }
+    .contact{
+        margin: 0px 50px 0px 50px;
+        width: 500px;
+    }
+    .top .heading{
+        font-size: 340%;
+        line-height: 70px;
+    }
+    .heading{
+        font-size: 215%;
+    }
+    .logos{
+        justify-content: space-around;
+    }
+    .logo{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .footer{
+        padding: 25px 50px 25px 50px;;
+    }
+}
+
+@media screen and (min-width: 850px){
+    .cards{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card{
+        margin-left: 50px;
+        margin-right: 45px;
+    }
+    .logo{
+        
+        padding-right: 0px;
+        padding-left: 0px; 
+    }
+    .logos{
+        margin-left: 100px;
+        margin-right: 100px;
+        justify-content: space-between;
+    }
+    .header{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .top{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .contact{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .footer{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .information{
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .info1{
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    .info2{
+        margin-left: 70px;
+        margin-right: 80px;
+    }
+    .name{
+        font-size: x-large;
+        padding-top: 15px;
+    }
+    .classelements{
+        display: flex;
+    }
+    .header button{
+        display: inline;
+    }
+    .threeLines{
+        display: none;
+    }
+    .social{
+        max-width: 200px;
+    }
+}
